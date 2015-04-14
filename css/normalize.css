@@ -95,6 +95,7 @@ a {
 a:active,
 a:hover {
   outline: 0;
+  color: cornflowerblue;
 }
 
 /* Text-level semantics

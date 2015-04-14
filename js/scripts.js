@@ -6,7 +6,7 @@ $('audio,video').mediaelementplayer({
 	},
 	startLanguage: 'en',
 	translationSelector: true
-  features: ['playpause','progress','current','volume'],
+  features: ['playpause','current','volume'],
 
 });
 
