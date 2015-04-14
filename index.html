@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Video and Audio</title>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/mediaelement-and-player.min.js"></script>
+
+
+    <link rel="stylesheet" href="js/mediaelementplayer.min.css" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    
+    <div class="wrapper">
+      
+      <nav>
+        <ul>
+          <li><a href="https://www.dropbox.com/s/palwcppm7guq84r/recording.mp3.wma?dl=0" id="video-filter">Video</a></li>
+          <li><a href="https://www.dropbox.com/s/57f81vyl199kmz9/recording1.mp3.wma?dl=0" id="audio-filter">Audio</a></li>
+        </ul>
+      </nav>
+
+      <!-- Video -->
+      <video class="mejs-shawntelle" width="852" height="480" controls>
+        <source src="media/Lola.mp4" type="video/mp4">
+        <track label="English" kind="subtitles" srclang="en" src="captions.vtt" default>
+      </video>
+
+      <video class="mejs-shawntelle" width="852" height="480" controls>
+        <source src="media/crazy.mp4" type="video/mp4">
+        <track label="English" kind="subtitles" srclang="en" src="captions1.vtt" default>
+      </video>
+      
+      <!-- Audio -->
+      <audio class="mejs-shawntelle" controls>
+        <source src="media/recording.mp3" type="audio/mp3">
+      </audio>
+      <audio class="mejs-shawntelle" controls>
+        <source src="media/recording1.mp3" type="audio/mp3">
+      </audio>
+      
+    </div>
+    
+
+        <script src="js/scripts.js"></script>
+  </body>
+</html>
+
+
+
