@@ -110,12 +110,12 @@ video, audio, .mejs-shawntelle {
 /* http://daneden.github.io/animate.css/ */
 
 audio, video {
-  -webkit-animation: bounceInLeft .5s;
-  animation: bounceInLeft .5s;
+  -webkit-animation: slideInLeft .5s;
+  animation: slideInLeft .5s;
 }
 
 
-@-webkit-keyframes bounceInLeft {
+@-webkit-keyframes slideInLeft {
   0% {
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
@@ -152,7 +152,7 @@ audio, video {
   }
 }
 
-@keyframes bounceInLeft {
+@keyframes slideInLeft {
   0% {
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
